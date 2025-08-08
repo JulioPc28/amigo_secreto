@@ -37,8 +37,6 @@ Una aplicación web sencilla y divertida para organizar sorteos de amigo secreto
 
 ---
 
----
-
 ## 📹 Video demostrativo
 
 > _Puedes grabar un pequeño video mostrando cómo se usa la app y subirlo a YouTube o Loom._
