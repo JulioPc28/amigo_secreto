@@ -25,7 +25,10 @@ Una aplicación web sencilla y divertida para organizar sorteos de amigo secreto
   Los nombres añadidos se muestran en una lista visible en la página.
 
 - **Sorteo aleatorio**  
-  Al hacer clic en el botón "Sortear Amigo", se selecciona aleatoriamente uno de los nombres y se muestra el resultado en pantalla.
+  Al hacer clic en el botón "Sortear Amigo", se selecciona aleatoriamente uno de los nombres y se muestra el resultado en pantalla, resaltando el cuadro de texto y oscureciendo la pantalla restante.
+
+  - **Reinicio del Juego**  
+  Los nombres añadidos se puede eliminar para iniciar nuevamente con otro listado.
 
 ---
 
@@ -34,14 +37,6 @@ Una aplicación web sencilla y divertida para organizar sorteos de amigo secreto
 - HTML5  
 - CSS
 - JavaScript
-
----
-
-## 📹 Video demostrativo
-
-> _Puedes grabar un pequeño video mostrando cómo se usa la app y subirlo a YouTube o Loom._
-
-🔗 [Ver demostración en YouTube](https://www.youtube.com/watch?v=tu-video-demo)
 
 ---
 
