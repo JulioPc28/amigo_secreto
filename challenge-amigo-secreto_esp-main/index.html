@@ -27,15 +27,30 @@
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
-            <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
-                    Sortear amigo
-                </button>
-            </div>
+           <div class="button-container">
+             <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
+                 <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
+                 Sortear amigo
+             </button>
+         
+             <!-- Botón para reiniciar el listado -->
+             <button id="botonReiniciar" class="button-reset hidden" onclick="reiniciarListado()">
+                 Nuevo sorteo
+             </button>
+         </div>
+            
         </section>
     </main>
 
     <script src="app.js" defer></script>
+
+    <!-- Overlay para mostrar el resultado con efecto -->
+<div id="overlay" class="overlay hidden">
+    <div class="overlay-content">
+        <p id="mensajeSorteo">🎉 El amigo secreto es: <strong></strong></p>
+        <button onclick="cerrarOverlay()" class="button-close">Cerrar</button>
+    </div>
+</div>
+
 </body>
 </html>

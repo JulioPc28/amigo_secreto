@@ -32,8 +32,7 @@ function agregarAmigo() {
 
 
 
-
-// Función para sortear un amigo secreto
+// Función para sortear un amigo secreto con efecto visual
 function sortearAmigo() {
     if (listaDeAmigos.length === 0) {
         alert("La lista está vacía. Agrega al menos un nombre.");
@@ -44,6 +43,35 @@ function sortearAmigo() {
     const indiceAleatorio = Math.floor(Math.random() * listaDeAmigos.length);
     const nombreSorteado = listaDeAmigos[indiceAleatorio];
 
-    // Mostrar el resultado
-    resultado.innerHTML = `<li>🎉 El amigo secreto es: <strong>${nombreSorteado}</strong></li>`;
+    // Mostrar el resultado en el overlay
+    const overlay = document.getElementById("overlay");
+    const mensaje = document.getElementById("mensajeSorteo");
+    mensaje.innerHTML = `🎉 El amigo secreto es: <strong>${nombreSorteado}</strong>`;
+    overlay.classList.remove("hidden");
+
+    // Mostrar el botón de reinicio
+    document.getElementById("botonReiniciar").classList.remove("hidden");
+}
+
+// Función para cerrar el overlay
+function cerrarOverlay() {
+    const overlay = document.getElementById("overlay");
+    overlay.classList.add("hidden");
+}
+
+
+
+// Función para reiniciar el listado de amigos
+function reiniciarListado() {
+    // Vacía el array
+    listaDeAmigos.length = 0;
+
+    // Limpia la lista visual
+    listaAmigos.innerHTML = "";
+
+    // Oculta el botón de reinicio
+    document.getElementById("botonReiniciar").classList.add("hidden");
+
+    // Limpia el resultado si está visible
+    resultado.innerHTML = "";
 }
