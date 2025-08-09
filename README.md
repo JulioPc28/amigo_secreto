@@ -25,7 +25,7 @@ Una aplicación web sencilla y divertida para organizar sorteos de amigo secreto
 - **Sorteo aleatorio**  
   Al hacer clic en el botón "Sortear Amigo", se selecciona aleatoriamente uno de los nombres y se muestra el resultado en pantalla, resaltando el cuadro de texto y oscureciendo la pantalla restante.
 
-  - **Reinicio del Juego**  
+- **Reinicio del Juego**  
   Los nombres añadidos se puede eliminar para iniciar nuevamente con otro listado.
 
 ---
