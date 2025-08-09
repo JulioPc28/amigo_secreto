@@ -9,7 +9,7 @@ Una aplicación web sencilla y divertida para organizar sorteos de amigo secreto
 > _Reemplaza los enlaces de imagen con tus propias capturas alojadas en GitHub o en un servicio como Imgur._
 
 ### Pantalla principal
-![Pantalla principal](assets/captura-principal.png)
+![Pantalla principal](assets/Captura de pantalla 2025-08-08 182301.png)
 
 ---
 
